@@ -35,7 +35,6 @@ app.get('/api/guitars/:id', async(req, res, next) => {
   }
 });
 
-
 // bind and listen to connection, handle requests and provide both HTTP and HTTPS versions of this app.
 const init = async()=> {
   try{
